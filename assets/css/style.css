@@ -7,6 +7,16 @@ body {
   background: transparent;
 }
 
+.profile-container {
+  text-align: right; /* Aligns all content inside this container to the right */
+}
+
+.profile-picture {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%; /* Makes the picture round */
+}
+
 
 body::before {
   content: "";
