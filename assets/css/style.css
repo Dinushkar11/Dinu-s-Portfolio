@@ -727,7 +727,7 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 18px;
+  padding: 12px;
   text-align: center;
 }
 
@@ -736,7 +736,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 21px;
+  padding: 0 12px;
   float: left;
   width: 33%;
 }
@@ -744,7 +744,7 @@ div.desc {
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
-    margin: 7px 0;
+    margin: 6px 0;
   }
 }
 
@@ -758,4 +758,23 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+/*--------------------------------------------------------------
+# YT
+--------------------------------------------------------------*/
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect ratio: 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
